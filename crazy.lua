@@ -48,7 +48,13 @@ game:GetService("ReplicatedStorage"):WaitForChild("CC"):FireServer(unpack(args))
     
     
     
-    
+    app:NewButton("Enable Chat", "shows mystery cards", function()
+    local StarterGui = game:GetService("StarterGui")
+
+while wait() do
+StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, true)
+end
+    end)
     
 
          app:NewButton("Show Mystery Cards", "shows mystery cards", function()
