@@ -139,4 +139,3 @@ local p = game:GetService("Players").LocalPlayer
 ts:TeleportToPlaceInstance(game.PlaceId, game.JobId, p)
 end)
 wait(0.5)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/discordpopup/main/discord-popup",true))()
